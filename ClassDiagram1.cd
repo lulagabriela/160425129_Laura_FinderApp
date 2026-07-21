@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_160425129_Laura_FinderApp.Players">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAggAAAAIAAAAgAAAAIAAQAAAAEAAAJQAAAAIAAAAA=</HashCode>
+      <FileName>Players.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.Time">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAgAAAAMAAAAAASIAAAAiAAAAAAA=</HashCode>
+      <FileName>Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.Areas">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>Areas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.TalkAreas">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TalkAreas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.WalkAreas">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgABAAAAAAIAAAACAAAABAAACgAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>WalkAreas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListPersons" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.Question">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAAAAAQAAAAEAAAAAgAAAAI=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_160425129_Laura_FinderApp.Persons">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgACIAIAAIAAAACAAAAQAAAAUAAAAEAgAAAAAAAA=</HashCode>
+      <FileName>Persons.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonQuestion" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9.13" />
+</ClassDiagram>
